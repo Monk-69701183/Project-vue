@@ -1,6 +1,9 @@
 <template>
   <!-- Container หลัก -->
   <div class="container py-5" style="background-color: #fff;">
+    <!-- หัวข้อ -->
+    <h2 class="text-center mb-4">รายการสินค้า</h2>
+    
     <div class="row">
       <!-- ใช้ v-for เพื่อวนลูปแสดงสินค้าแต่ละรายการ -->
       <div class="col-md-3 mb-4" v-for="product in products" :key="product.id">
