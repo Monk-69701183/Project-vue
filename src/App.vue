@@ -21,9 +21,10 @@
               API
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">ราคาทอง</a></li>
-              <li><a class="dropdown-item" href="/products">สินค้า</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">ราคาทองวันนี้</a></li>
+              <li><a class="dropdown-item" href="/products_api">แสดงสินค้า</a></li>
+              <li><a class="dropdown-item" href="/products_table">แสดงสินค้าแบบตาราง</a></li>
+              <li><a class="dropdown-item" href="/users">แสดงผู้ใช้</a></li>
             </ul>
           </li>
         </ul>

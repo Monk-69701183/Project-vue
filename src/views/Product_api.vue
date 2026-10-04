@@ -1,6 +1,6 @@
 <template>
   <!-- Container หลัก -->
-  <div class="container my-5">
+  <div class="container py-5" style="background-color: #fff;">
     <div class="row">
       <!-- ใช้ v-for เพื่อวนลูปแสดงสินค้าแต่ละรายการ -->
       <div class="col-md-3 mb-4" v-for="product in products" :key="product.id">
